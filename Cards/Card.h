@@ -11,6 +11,5 @@
 @interface Card : NSObject
 
 @property (strong, nonatomic) NSString *contents;
-@property (strong, nonatomic) NSString *colour;
 
 @end

@@ -39,14 +39,6 @@
             [sender setBackgroundImage:nil forState: UIControlStateNormal];
             [sender setTitle:[randomCard.suit stringByAppendingFormat:@" %@", randomCard.rank]
                     forState:UIControlStateNormal];
-            if ([randomCard.colour isEqualToString: @"red"])
-            {
-                [sender setTitleColor:[UIColor colorWithRed:1 green:0 blue:0 alpha:1] forState:(UIControlStateNormal)];
-            }
-            else
-            {
-                [sender setTitleColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1] forState:(UIControlStateNormal)];
-            }
         }
     }
 }
